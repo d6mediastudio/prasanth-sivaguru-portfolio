@@ -2702,17 +2702,18 @@ body.cursor-open #cursor-label {
   }
 
   .hero-display {
-    width: 100%;
-    max-width: 360px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-    font-size: clamp(32px, 8vw, 48px);
-    line-height: 0.95;
-    letter-spacing: 0.02em;
-    text-align: center;
-    word-break: normal;
-    overflow-wrap: normal;
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
+    font-size: clamp(38px, 10vw, 58px) !important;
+    line-height: 0.95 !important;
+    letter-spacing: 0.02em !important;
+    text-align: center !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    transform: none !important;
   }
 
   .hero-line {
