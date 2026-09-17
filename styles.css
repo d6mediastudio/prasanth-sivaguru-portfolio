@@ -2830,7 +2830,12 @@ body.cursor-open #cursor-label {
   .wd-actions .btn { justify-content: center; }
   .gallery-header.section-container { padding-bottom: 24px; }
   .gallery-toolbar { flex-direction: column; align-items: flex-start; gap: 8px; }
-  .nav-container { padding: 0 20px; }
+  .nav-container { padding: 0 16px; gap: 12px; }
+  .brand-logo {
+    font-size: clamp(0.7rem, 3.8vw, 0.85rem);
+    letter-spacing: 0.04em;
+    gap: 4px;
+  }
 
   .whatsapp-float {
     bottom: max(18px, env(safe-area-inset-bottom));
