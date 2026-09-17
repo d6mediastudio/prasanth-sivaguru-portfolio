@@ -2703,14 +2703,16 @@ body.cursor-open #cursor-label {
 
   .hero-display {
     width: 100%;
-    max-width: 100%;
-    font-size: clamp(1.4rem, 6.6vw, 2.8rem);
-    line-height: 1.02;
-    letter-spacing: -0.02em;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: clamp(32px, 8vw, 48px);
+    line-height: 0.95;
+    letter-spacing: 0.02em;
     text-align: center;
     word-break: normal;
     overflow-wrap: normal;
-    box-sizing: border-box;
   }
 
   .hero-line {
